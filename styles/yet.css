@@ -1,43 +1,79 @@
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 16px;
+}
+nav{
+    background-color: steelblue;
+    padding: 10px;
+}
+nav a{
+    color: white;
+    padding: 10px;
+    display: block;
+}
 main{
-    max-width: 840px
+    max-width: 850px
 }
 h1{
     margin: 10px;
+    padding: 0 0 10px;
     
 }
 h2{
-    background-color: #333;
     color: white;
     text-align: center;
 }
 aside{
-    width: 320px;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2); / * 1️⃣ * /
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: left; 
+    width: 20rem;
+    text-align: center; 
+  
 }
 aside img {
-    width: 320px;
+    width: 200px;
     height: auto;
+}
+aside h2{
+    position:absolute;
+    top: 650px;
+    left: 85px;
 }
 main img{
     width: 150px;
     height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 6rem 0 20rem;
 }
 p{
-    text-align: center;
-    padding: 10px;
+    margin: 1rem;
 }
 ul{
+   
     margin: 10px auto;
+    li{
+        margin: 10px;   }
 }
 footer{
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+/* class selection */
+.box{
+margin: 1rem;
+border: 1px solid rgba(0, 0, 0, 1); 
+padding: 1rem;
+background-color: #eee;
+color: #000;
+}
+.indent{
+margin: left 1rem; ;
 }
