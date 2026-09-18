@@ -31,10 +31,6 @@ nav, p, section, article{
     margin: 16px;
     padding: 8px;
 }
-.socialmedia a{
-    text-decoration: none;
-}
-
 .hero{
     position: relative;
 }
@@ -76,6 +72,9 @@ section h2{
     background-color: var(--accent1-color);
     color: #fff;
     text-align: center;
+}
+.social-media a {
+    text-decoration: none;
 }
 footer{
     padding: 2px;
