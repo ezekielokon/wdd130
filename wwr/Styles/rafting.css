@@ -51,7 +51,7 @@ h1{
 }
 article{
     position: absolute;
-    top: 90%;
+    top: 75%;
     width: 60%;
     padding: 10px;
     text-align: left;
@@ -61,7 +61,7 @@ article{
 }
 article img{
     float: right;
-    width: 100x;
+    width: 90px;
 }
 .hero article img {
     float: right;
