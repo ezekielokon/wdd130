@@ -127,7 +127,7 @@ form {
 .purpose{
   display: grid; 
   grid-template-columns: 110px 1fr; 
-  align-items: start; 
+  align-items: center; 
   margin-top: 5px;
   column-gap: 5px;  
 }
