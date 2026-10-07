@@ -47,10 +47,6 @@ h1, h2{
     color: var(--accent1-color);
 }
 
-nav, p, section, article{
-    margin: 16px;
-    padding: 8px;
-}
 
 main{
     width: 840px;
@@ -144,7 +140,6 @@ form {
 .purpose-options{
    grid-column: 2;
    grid-template-columns: 25px 1fr;
-   display: flex; 
    flex-direction: column;
     gap: 5px;
     display: grid;
