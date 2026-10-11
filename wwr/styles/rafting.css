@@ -223,7 +223,7 @@ form {
   grid-template-columns: 110px 1fr; 
   align-items: center; 
   margin-top: 5px;
-  column-gap: 5px;  
+  column-gap: 5px; 
 }
 
 .purpose p{
@@ -321,6 +321,7 @@ width: 320px;
     gap: 40px;
     margin-top: 25px;
     background-color: #e6e2e6;
+    
 }
 
 .profile h2{
@@ -376,6 +377,7 @@ footer{
    text-align: center;
     background-color: var(--primary-color);
     color: var(--accent1-color);
+    margin-top: 20px;
 }
 
 /* home page */
