@@ -18,6 +18,8 @@ nav ul{
     justify-content: space-evenly;
     list-style: none;
     gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
 nav a{
     text-decoration: none;
@@ -115,7 +117,7 @@ margin-top: 8px;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px
 }
-.adven h2{
+.adventure h2{
     grid-column: 1 / -1;
      width: 100%;
     background-color: var(--accent1-color);
