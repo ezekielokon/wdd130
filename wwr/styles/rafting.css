@@ -309,12 +309,14 @@ width: 320px;
  button{
     width: 320px;
     height: 40px;
-    background-color: var(--secondary-color);
+    background-color: var(--accent1-color);
     color: var(--primary-color);
     border: 1px solid #777;
     font-size: 13px;
     margin: 0;
     border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .profile{
