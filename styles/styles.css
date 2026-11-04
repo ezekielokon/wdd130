@@ -6,6 +6,7 @@ h1 {
     margin: 10px;
     padding: 0 0 10px;
     border-bottom: 2px solid #000;
+    color: #fff;
 }
 
 nav {
@@ -39,7 +40,7 @@ main img {
 
 main p {
    
-    padding: 15px;
+    padding: 0px;
 }
 
 aside {
